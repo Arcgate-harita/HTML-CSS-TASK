@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    /*padding-top: 65px;*/
+}
+ .header {
+    background-color: #80808059;
+    padding: 5px;
+ }
+.header li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.header ul {
+    text-align:right;
+}
+
+  ul img {
+    width: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+ .list:hover {
+    color:white;
+    background-color: green;
+    border: 30px;
+}
+
+.list {
+    color:black;
+    text-decoration: none;
+    font-size: 22px;
+    padding:20px;
+}
+
+.section img {
+    width: 600px;
+    margin-left: 450px;
+}
+
+.container {
+    display: flex;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.section p{
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.slider {
+    box-shadow: 0 20px 60px 2px #cbcbcb52;
+    height: 100%;
+    padding: 60px;
+    margin-top: 15px;
+}
+
+.slider ul {
+    margin-top: -50px;
+   
+}
+
+.slider h2 {
+    margin-left: -50px;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.slider li {
+    list-style-type:none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.slider a {
+    text-decoration: none;
+    color: black;
+}
+
+.option:hover {
+    color: white;
+    background-color: rgb(133, 136, 133);
+    }
+.slider-option:hover {
+        color:white;
+}
+.option {
+    color: black;
+    margin-left: -30px;
+    text-decoration: none;
+}
+
+.footer {
+   padding: 50px; 
+}
+
+.footer p {
+    text-align: center;
+   margin-left: -60px;
+    margin-bottom: -70px;
+}
+
+.footer img {
+    width: 90px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+ .icon {
+  color: black;
+  width: 20%;
+}
+
+.footer-section {
+    padding: 20px;
+    background-color: #80808059;
+}
+
+.footer ul {
+        display: flex;
+        list-style-type: none;
+        margin-left: 500px;
+        gap: 80px;
+        margin-top: -30px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.term:hover {
+    color:white;
+    background-color: green;
+    padding: 10px;
+}
+
+.icon {
+    margin-left: 550px;
+}
